@@ -6,7 +6,7 @@ Specifically, given an input text, it returns a summary of the most relevant par
 The logic essentially consists of two components:
 
 ### 1. Topic Extractor
-I split the data into a predefined number of topics via a non-negative matrix factorization algorithm.
+I split the data (list of paragraphs) into a predefined number of topics via a non-negative matrix factorization algorithm.
 Given an input text, the most 'relevant' topic is then extracted by computing a cosine similarity function.
 
 ### 2. Summarization
