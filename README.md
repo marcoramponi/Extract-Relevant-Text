@@ -10,7 +10,7 @@ I split the data (list of paragraphs) into a predefined number of topics via a n
 Given an input text, the most 'relevant' topic is then extracted by computing a cosine similarity function.
 
 ### 2. Summarization
-This is done via a Hugging Face Transformers pipeline object set for summarization task.
+An (abstractive) text summarization of the chosen paragraph is then performed via a Hugging Face Transformers pipeline object set for summarization task.
 
 ### Dataset
 In order to test this algorithm I prepared a dataset containing a list of paragraphs from F. Nietzsche.
