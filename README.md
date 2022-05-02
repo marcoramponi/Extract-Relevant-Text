@@ -1,5 +1,5 @@
 # Extract Relevant Text
-This code can be used to implement a text search algorithm.
+This code can be used to implement a text search algorithm powered by Machine Learning techniques.
 
 Specifically, given an input text, it returns a summary of the most relevant paragraph from a given list of paragraphs.
 
